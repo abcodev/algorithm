@@ -11,8 +11,7 @@ class Solution {
                 num = i;
             }            
         }
-        
-        
+       
         if(x % num == 0){
             if(y % num == 0){
                 y = y / num;
