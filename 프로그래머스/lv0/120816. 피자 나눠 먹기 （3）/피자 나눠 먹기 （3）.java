@@ -7,5 +7,6 @@ class Solution {
             answer = n/slice+1;
         }
         return answer;
+        // return n % slice > 0 ? n/slice+1 : n/slice;
     }
 }
