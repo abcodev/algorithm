@@ -15,7 +15,6 @@ public class Main {
         int C = Integer.parseInt(br.readLine());
         
         System.out.printf("%d %d" , ((60*A+B)+C)/60 % 24 ,((60*A+B)+C)% 60);
-        
 
 	}
 	
