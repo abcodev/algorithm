@@ -1,15 +1,12 @@
-import java.util.Scanner;
+import java.io.IOException;
+public class Main{
+    public static void main(String[] arg)throws IOException{
+        int num = System.in.read() - '0';
+        StringBuilder dan = new StringBuilder();
 
-public class Main {
-
-	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
-
-		int N = sc.nextInt();
-
-		for (int i = 1; i < 10; i++) {
-			System.out.println(N + " * " + i + " = " + N * i);
-		}
-	}
+        for(int i= 1;i<=9;i++){
+            dan.append(num).append(" * ").append(i).append(" = ").append(num*i).append("\n");
+        }
+        System.out.println(dan);
+    }
 }
